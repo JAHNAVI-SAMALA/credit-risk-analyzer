@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Risk Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💳 Credit Risk Analyzer</h1>
+
+    <div class="card">
+        <form method="POST" class="form-grid">
+            <input type="number" name="income" placeholder="Annual Income" required>
+            <input type="number" name="credit_score" placeholder="Credit Score" required>
+            <input type="number" name="debt" placeholder="Total Debt" required>
+            <input type="number" name="savings" placeholder="Savings" required>
+            <input type="number" name="late_payments" placeholder="Late Payments" required>
+
+            <button type="submit">Analyze Risk</button>
+        </form>
+    </div>
+
+    {% if risk %}
+    <div class="result-card">
+        <h2 class="risk {{ risk|lower }}">{{ risk }}</h2>
+        <p>Risk Score: <strong>{{ score }}</strong></p>
+        <p class="insight">{{ insight }}</p>
+        <div class="graph">
+            <img src="{{ graph }}" alt="Risk Graph">
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
