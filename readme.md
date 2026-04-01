@@ -1,5 +1,10 @@
 # 💳 Credit Risk Analyzer
 
+## 📸 Preview
+<img width="948" height="532" alt="Screenshot 2026-04-01 180335" src="https://github.com/user-attachments/assets/7a0501fb-e629-41c1-be37-eea00335e2cb" />
+<img width="910" height="656" alt="Screenshot 2026-04-01 180409" src="https://github.com/user-attachments/assets/d81c0700-4711-43b3-844b-eff11ec2b1b2" />
+
+
 ## 📌 Overview
 The Credit Risk Analyzer is a web-based application that evaluates the likelihood of a borrower defaulting on a loan using key financial indicators. This project simulates a simplified version of credit risk assessment used in financial institutions.
 
@@ -58,7 +63,8 @@ The system provides dynamic insights based on the user's financial data, helping
 
 ### 1. Clone the repository
 
-**git clone https://github.com/JAHNAVI-SAMALA/credit-risk-analyzer.git**
+git clone https://github.com/JAHNAVI-SAMALA/credit-risk-analyzer.git
+
 cd credit-risk-analyzer
 
 ### 2. Install dependencies
@@ -72,10 +78,11 @@ http://127.0.0.1:5000
 
 ---
 
-### 📌 Example Use Case
+## 📌 Example Use Case
 
 A user enters financial details such as income, debt, and credit score.
-**The system:**
+
+The system:
 
 - Calculates a risk score
 - Classifies the borrower
@@ -84,7 +91,7 @@ A user enters financial details such as income, debt, and credit score.
 
 ---
 
-### ⚠️ Limitations
+## ⚠️ Limitations
 - Rule-based model (not machine learning)
 - Simplified assumptions
 - Does not reflect real-world banking systems
