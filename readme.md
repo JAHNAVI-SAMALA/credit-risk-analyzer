@@ -58,7 +58,7 @@ The system provides dynamic insights based on the user's financial data, helping
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/credit-risk-analyzer.git
+**git clone https://github.com/JAHNAVI-SAMALA/credit-risk-analyzer.git**
 cd credit-risk-analyzer
 
 ### 2. Install dependencies
@@ -75,37 +75,34 @@ http://127.0.0.1:5000
 ### 📌 Example Use Case
 
 A user enters financial details such as income, debt, and credit score.
-The system:
+**The system:**
 
-Calculates a risk score
-Classifies the borrower
-Displays a graph of risk vs debt
-Provides an insight explaining the result
+- Calculates a risk score
+- Classifies the borrower
+- Displays a graph of risk vs debt
+- Provides an insight explaining the result
 
 ---
 
 ### ⚠️ Limitations
-Rule-based model (not machine learning)
-Simplified assumptions
-Does not reflect real-world banking systems
+- Rule-based model (not machine learning)
+- Simplified assumptions
+- Does not reflect real-world banking systems
 
 ---
 
-### 🔮 Future Improvements
-Integrate machine learning models for prediction
-Use real-world financial datasets
-Add user authentication and history tracking
-Deploy as a live web application
+## 🔮 Future Improvements
+- Integrate machine learning models for prediction
+- Use real-world financial datasets
+- Add user authentication and history tracking
+- Deploy as a live web application
 
 ---
 
-### 👤 Author
-
-Jahnavi Samala
-BTech CSE Student
-
+## 👤 Author
+**Jahnavi Samala – BTech CSE Student**
 ---
 
-### ⭐ Acknowledgment
+## ⭐ Acknowledgment
 
 This project was inspired by a credit risk assessment simulation from Goldman Sachs (Forage Virtual Experience Program).
